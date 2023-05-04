@@ -1,0 +1,279 @@
+
+*{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body, footer{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo{
+  height: 500%;
+  float: left;
+  margin-left: 30px;
+}
+
+#navbar{
+  background-color:#996633;
+  box-shadow: 4px 3px 2px #ffd7b0;
+  height: 50px;
+  width: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 100%;
+  padding: 7px 13px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.active, a:hover{
+  background: #4d2f12;
+  transition: .5s;
+}
+
+.bt1{
+  padding: 2px 8px;
+  box-sizing: border-box;
+  background: #7a5632;
+  border-radius: 20px;
+  font-size: 100%;
+}
+
+.bt1.active, .bt1:hover{
+  background: #eebb8c;
+  transition: .5s;
+}
+
+h1{
+  padding-top: 150px;
+  padding-left: 100px;
+  position: absolute;
+  width: 2000px;
+  height: 190px;
+  
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 500%;
+
+  color: #FFFFFF;
+}
+
+.m-h2{
+  padding-left: 100px;
+  top: 300px;
+  position: absolute;
+  width: 2000px;
+  height: 190px;
+
+  font-style: normal;
+  font-weight: 100;
+  font-size: 250%;
+
+  color: #FFFFFF;
+}
+
+.bt2{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 100px;
+  top: 360px;
+
+  font-size: 150%;
+  font-weight: 100;
+  text-decoration: none;
+
+  background: #FFFFFF;
+  border-radius: 20px;
+  color: #4d2f12;
+}
+
+.bt2.active, .bt2:hover{
+  background: #eebb8c;
+  transition: .5s;
+}
+
+.hero{
+  height: 500px;
+  background-image: url('hero.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.f-d{
+	background: #996633;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px;
+	padding: 35px 30px;
+}
+
+.f-d .footer-left,
+.f-d .footer-center,
+.f-d .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.f-d .footer-left{
+	width: 40%;
+}
+
+.f-d img{
+	height: 70px;
+	margin-top: 2px;
+}
+
+.f-d .footer-links{
+	color:  #ffffff;
+	margin: 5px 0 10px;
+	padding: 0;
+}
+
+.f-d .footer-links a{
+	display: inline-block;
+	line-height: 1.2;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 500;
+	text-decoration: none;
+	color:  white;
+}
+
+.f-d .footer-center{
+	width: 35%;
+}
+
+.f-d .footer-center i{
+	background-color:  #cf6b27;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.contacts{
+  font-size: 18px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+
+.f-d .footer-center{
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.f-d .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:300;
+	vertical-align: middle;
+	margin:0;
+}
+
+.f-d .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height: 2px;
+}
+
+.f-d .footer-center p a{
+	color:  rgb(255, 255, 255);
+	text-decoration: none;;
+}
+
+.f-d .footer-links a {
+  font-weight:300;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: .2s;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 1px;
+  justify-content: space-between;
+}
+
+.f-d .footer-links .l1:before {
+  content: none;
+}
+
+.f-d .social-links{
+	line-height: 20px;
+	color:  #f8f8f8;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.f-d .social-links span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+.f-d .footer-icons{
+	margin-top: 5px;
+}
+
+.f-d .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	background-color:  #df8a3a;
+	border-radius: 10px;
+
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 8px;
+}
+
+.f-d .footer-icons img{
+  height: 22px;
+}
+
+.footer-bottom{
+  text-align: center;
+  color: #4d2f12;
+  font-weight: 200;
+  font-size: small;
+}
+
